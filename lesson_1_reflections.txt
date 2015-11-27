@@ -1,0 +1,33 @@
+## How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By loading both files side by side, I searched for lines with + or - marking on them, I was then able to narrow down my search to only the affected areas of my code and pinpoint the error.
+
+## How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Saving history of my files will allow me to change code, experiment with new features while being able to safely revert to old versions if something wrong happens.
+
+## What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+- You set checkpoints that make sense when comparing with diff
+- Checkpoints can be labeled appropriately to describe what implications it did, collaborators will be happy when reviewing the changes log.
+
+Cons:
+- You cannot rely on having automatic "backups" for your files
+- If not careful, you will tend to either commit too early, or forget to commit for a while.
+
+## Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git seems to consider that a Content Milestone is a commit that involved changing one or many interrelated files since the last time commit was made, while Google Docs offers Content Milestone is the change to do you to a content - i.e. a document.
+
+## How can you use the commands git log and git diff to view the history of files?
+
+git log will list all commits that was made to our repository, once we find our commit we'll use git log our_commit_id older_commit_id to examine the changes.
+
+## How might using version control make you more confident to make changes that could break something?
+
+With the ability to switch between commits, I can make sure that if I break something I'll always be able to revert to a working version.
+
+## Now that you have your workspace set up, what do you want to try using Git for?
+
+I'll use Git for managing all my code projects.
