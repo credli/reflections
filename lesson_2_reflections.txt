@@ -21,3 +21,9 @@ By showing the relationship between commit parents on the master branch, and oth
 ## What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 Merging two branches makes all commits introduced in the new branch accessible in the merged branch. We represent it to know which branch included certain commits.
+
+## What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: Since Git can keep track of our commits and their parents, it can also know the relationship of these commits when we choose to auto merge. Wanting to always merge manually is inefficient when changes do not introduce conflicts.
+
+Cons: Imagine if Git still merges automatically when conflicts are present on branches, having git choose which commit wins can cause inconsistency and unpredictable code results.
