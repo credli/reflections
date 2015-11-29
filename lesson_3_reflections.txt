@@ -22,3 +22,9 @@ One way for collaborating on a project is by putting my working directory on an 
 
 - Sharing the project with others will be easier as no one will be required to have previous experience with version control or Git.
 - What would be harder is managing communication, keeping track of commits, branching out copies for experimentation and bug fixes while keeping the main folder up to date, applying change requests, tracking attribution. etc...
+
+## When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I would make changes in separate branch when introducing new features, typically I'll test then merge them into master when they are ready for production. On the other hand, changes done in master will have an only objective - making build more stable or fixing bugs. Benefits for doing changes in a separate branch is that it will allow me to experiment without break my code, but that comes at the cost of having sometimes to manually merging and to deal with conflict resolution, while changing on master is more or less linear and straight forward.
+
+Some of the concepts above are taken from https://sethrobertson.github.io/GitBestPractices/
