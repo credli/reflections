@@ -11,3 +11,7 @@ Since the tip of a master branch always point at the lastest commit, we don't wa
 Branch is a commit checkpoint label set on a repository, it creates a commit that tracks parent commits directly accessible to it.
 Clone is to copy a repository from a remote source, or another location on your computer, to your local directory.
 Fork is basically a "special" clone that Github does for you, storing necessary metadata that links to the original repository.
+
+## What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This allows me to work offline while knowing what other collaborators have committed until that point. Say if we are working on fixing bugs in our application, doing this will show me what other collaborators committed so that I focus on unattended issues.
