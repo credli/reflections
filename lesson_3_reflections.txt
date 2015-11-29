@@ -15,3 +15,10 @@ Fork is basically a "special" clone that Github does for you, storing necessary 
 ## What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This allows me to work offline while knowing what other collaborators have committed until that point. Say if we are working on fixing bugs in our application, doing this will show me what other collaborators committed so that I focus on unattended issues.
+
+## How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+One way for collaborating on a project is by putting my working directory on an FTP site and creating multiple user accounts on that server. My collaborators would have read-only or read-write permissions on that folder. People who have read only access may suggest their changes in an email, or maybe send their changes back to administrators asking them to diff and consider merging them to the main repository if they are deemed acceptable.
+
+- Sharing the project with others will be easier as no one will be required to have previous experience with version control or Git.
+- What would be harder is managing communication, keeping track of commits, branching out copies for experimentation and bug fixes while keeping the main folder up to date, applying change requests, tracking attribution. etc...
